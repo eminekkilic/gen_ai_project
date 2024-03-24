@@ -1,0 +1,56 @@
+/* Genel Sayfa Stilleri */
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Arka plan rengi */
+}
+
+/* Header Stilleri */
+header {
+    background-color: #333; /* Arka plan rengi */
+    color: #fff; /* Yazı rengi */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigasyon Menüsü Stilleri */
+nav ul {
+    list-style-type: none; /* Liste işaretlerini kaldırır */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /* Arka plan rengi */
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white; /* Bağlantı rengi */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* Bağlantı altı çizgisini kaldırır */
+}
+
+nav ul li a:hover {
+    background-color: #111; /* Fare ile üzerine gelindiğinde arka plan rengi */
+}
+
+/* Ana İçerik Stilleri */
+main {
+    padding: 20px;
+}
+
+/* Footer Stilleri */
+footer {
+    background-color: #333; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
